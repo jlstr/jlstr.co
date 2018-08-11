@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
-var port = process.env.PORT || 3001
+const port = process.env.PORT || 3001;
 
 app.get('/', (request, response) => {
-  response.sendFile('/static/index.html');
+  response.sendFile('index.html', { 'root': 'static' });
 });
 
 app.listen(port, () => {
