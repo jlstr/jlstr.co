@@ -2,6 +2,9 @@ var express = require('express');
 var app = express();
 const port = process.env.PORT || 3001;
 
+// Using MiddleWare
+app.use('/fonts', express.static('fonts'));
+
 app.get('/', (request, response) => {
   response.sendFile('index.html', { 'root': 'static' });
 });
