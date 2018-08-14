@@ -1,0 +1,36 @@
+body {
+  background-color: #2d609b;
+}
+
+@font-face {
+  font-family: CurwenSans;
+  src: url("fonts/CurwenSans.ttf");
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: CurwenSans;
+}
+
+.name {
+  margin-top: 180px;
+  position: absolute;
+  width: 100%;
+}
+
+.main-content {
+  float: left;
+  height: 800px;
+  width: 100%;
+  margin-top: 666px;
+  padding: 10px 0 10px 0;
+  background: #e3e3e3;
+}
+
+.work-sample {
+  height: 200px;
+  border: 1px solid #7a7a7a;
+  background: #3b444b;
+  color: #dcdcdc;
+}
