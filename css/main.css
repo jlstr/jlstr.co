@@ -4,7 +4,7 @@ body {
 
 @font-face {
   font-family: CurwenSans;
-  src: url("fonts/CurwenSans.ttf");
+  src: url("/fonts/CurwenSans.ttf");
 }
 
 h1 {
@@ -21,16 +21,19 @@ h1 {
 
 .main-content {
   float: left;
-  height: 800px;
+  height: 666px;
   width: 100%;
-  margin-top: 666px;
+  margin-top: 555px;
   padding: 10px 0 10px 0;
-  background: #e3e3e3;
+  background: #14496f;
+  clear: both;
 }
 
 .work-sample {
-  height: 200px;
-  border: 1px solid #7a7a7a;
-  background: #3b444b;
-  color: #dcdcdc;
+  height: 170px;
+  border: 1px solid #a8a8a8;
+  padding: 10px;
+  background: #d6fdff;
+  color: #3b444b;
+  font-weight: bold;
 }
