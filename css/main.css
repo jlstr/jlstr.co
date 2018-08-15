@@ -21,9 +21,9 @@ h1 {
 
 .main-content {
   float: left;
-  height: 666px;
+  height: 600px;
   width: 100%;
-  margin-top: 555px;
+  margin-top: 600px;
   padding: 10px 0 10px 0;
   background: #14496f;
   clear: both;
@@ -31,9 +31,35 @@ h1 {
 
 .work-sample {
   height: 170px;
-  border: 1px solid #a8a8a8;
   padding: 10px;
-  background: #d6fdff;
-  color: #3b444b;
+  background: #211a23;
+  color: #666;
   font-weight: bold;
+}
+
+.owl-nav {
+  top: 30%;
+  width: 100%;
+  background: #fff;
+  padding: 0 40px 0 10px;
+}
+
+.owl-nav > .disabled {
+  opacity: 0;
+}
+
+.owl-prev {
+  float: left;
+}
+
+.owl-next {
+  float: right;
+  margin-right: 50px;
+}
+
+.owl-prev > span, .owl-next > span {
+  position: absolute;
+  top: 25%;
+  font-size: 50px;
+  color: #fff;
 }
