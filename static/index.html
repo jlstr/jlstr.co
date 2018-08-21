@@ -19,11 +19,11 @@
   <link rel="stylesheet" href="/css/main.css">
   <!-- JS -->
   <!-- HIRAKU -->
-  <script src="js/hiraku.min.js"></script>
+  <script src="js/lib/hiraku.min.js"></script>
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <!-- OWL Carousel -->
-  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/lib/owl.carousel.min.js"></script>
 </head>
 
 <body>
@@ -52,45 +52,12 @@
       <div class="work-sample">Ceiba Software</div>
       <div class="work-sample">StackBuilders</div>
     </div>
-
   </div>
-  <script type="text/javascript">
-    $(() => {
-      $('.owl-carousel').owlCarousel({
-        items: 6,
-        dots: false,
-        margin: 2,
-        responsive: {
-          0:{
-              items: 2,
-              nav:true
-          },
-          600:{
-              items:3,
-              nav:false
-          },
-          1000:{
-              items:5,
-              nav:true,
-              loop:false
-          }
-        }
-      });
-    });
-  </script>
-
-  <script type="text/javascript">
-    $(() => {
-      new Hiraku(".offcanvas-left", {
-        btn: "#offcanvas-btn-left",
-        fixedHeader: "#header",
-        direction: "left"
-      });
-    });
-  </script>
+  <script type="text/javascript" src="js/init_owl.js"></script>
+  <script type="text/javascript" src="js/init_hiraku.js"></script>
   <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
   <script type="text/javascript">
-    particlesJS("particles-js",{particles:{number:{value:120,density:{enable:true,value_area:750}},color:{value:"#f0f0f0"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5},image:{src:"img/github.svg",width:100,height:100}},opacity:{value:.3,random:false,anim:{enable:false,speed:1,opacity_min:.1,sync:false}},size:{value:3,random:true,anim:{enable:false,speed:40,size_min:.1,sync:false}},line_linked:{enable:true,distance:150,color:"#ebebeb",opacity:.4,width:1},move:{enable:true,speed:0.9,direction:"none",random:false,straight:false,out_mode:"out",attract:{enable:false,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:true,mode:"repulse"},onclick:{enable:true,mode:"push"},resize:true},modes:{grab:{distance:400,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:true,config_demo:{hide_card:false,background_color:"#b61924",background_image:"",background_position:"50% 50%",background_repeat:"no-repeat",background_size:"cover"}});
+    particlesJS("particles-js",{particles:{number:{value:120,density:{enable:true,value_area:750}},color:{value:"#f0f0f0"},shape:{type:"circle",stroke:{width:0,color:"#000000"},polygon:{nb_sides:5},image:{src:"img/github.svg",width:100,height:100}},opacity:{value:.3,random:false,anim:{enable:false,speed:1,opacity_min:.1,sync:false}},size:{value:3,random:true,anim:{enable:false,speed:40,size_min:.1,sync:false}},line_linked:{enable:true,distance:150,color:"#ebebeb",opacity:.4,width:1},move:{enable:true,speed:0.9,direction:"none",random:false,straight:false,out_mode:"out",attract:{enable:false,rotateX:600,rotateY:1200}}},interactivity:{detect_on:"canvas",events:{onhover:{enable:false,mode:"repulse"},onclick:{enable:true,mode:"push"},resize:true},modes:{grab:{distance:400,line_linked:{opacity:1}},bubble:{distance:400,size:40,duration:2,opacity:8,speed:3},repulse:{distance:200},push:{particles_nb:4},remove:{particles_nb:2}}},retina_detect:true,config_demo:{hide_card:false,background_color:"#b61924",background_image:"",background_position:"50% 50%",background_repeat:"no-repeat",background_size:"cover"}});
   </script>
 </body>
 </html>
