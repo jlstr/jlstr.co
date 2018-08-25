@@ -1,22 +1,33 @@
 $(() => {
-  $('.owl-carousel').owlCarousel({
-    items: 6,
-    dots: false,
-    margin: 2,
+  var owl = $('.owl-carousel');
+
+  owl.owlCarousel({
+    loop: true,
+    nav: true,
+    margin: 10,
+    autoHeight: true,
+    autoWidth: true,
     responsive: {
-      0:{
-          items: 2,
-          nav:true
+      0: {
+        items: 1
       },
-      600:{
-          items:3,
-          nav:false
+      600: {
+        items: 3
       },
-      1000:{
-          items:5,
-          nav:true,
-          loop:false
+      960: {
+        items: 4
+      },
+      1200: {
+        items: 6
       }
     }
+  });
+
+  $('.next').on('click', () => {
+    owl.trigger('next.owl');
+  });
+
+  $('.prev').on('click', () => {
+    owl.trigger('prev.owl');
   });
 });

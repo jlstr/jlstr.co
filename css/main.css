@@ -25,48 +25,20 @@ h1 {
 }
 
 .main-content {
-  float: left;
   height: 600px;
   width: 100%;
   margin-top: 500px;
   padding: 10px 0 10px 0;
   background: #14496f;
-  clear: both;
 }
 
 .work-sample {
-  height: 170px;
+  height: 160px;
+  width: 300px;
   padding: 10px;
   background: #211a23;
   color: #666;
   font-weight: bold;
-}
-
-.owl-nav {
-  top: 30%;
-  width: 100%;
-  background: #fff;
-  padding: 0 40px 0 10px;
-}
-
-.owl-nav > .disabled {
-  opacity: 0;
-}
-
-.owl-prev {
-  float: left;
-}
-
-.owl-next {
-  float: right;
-  margin-right: 50px;
-}
-
-.owl-prev > span, .owl-next > span {
-  position: absolute;
-  top: 25%;
-  font-size: 50px;
-  color: #fff;
 }
 
 .hiraku-open-btn {
@@ -76,6 +48,6 @@ h1 {
 /*show for small screens */
 @media screen and (max-width: 550px) { /* I've given 1023px but you can change to proper width */
   .hiraku-open-btn {
-      display: block;
+    display: block;
   }
 }
