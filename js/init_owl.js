@@ -3,7 +3,7 @@ $(() => {
 
   owl.owlCarousel({
     loop: true,
-    nav: true,
+    nav: false,
     margin: 0,
     autoHeight: true,
     autoWidth: true,

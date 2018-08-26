@@ -1,12 +1,9 @@
-* {
-  box-sizing: border-box; }
-
 .sample {
-  transition: 450ms transform;
+  transition: 350ms transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 46.875px 3px 0 3px;
-  background: greenyellow; }
+  margin: 10px 1px 10px 1px;
+  background: #211a23; }
 
 .tile {
   position: relative;
@@ -15,7 +12,7 @@
   height: 140.625px;
   font-size: 20px;
   cursor: pointer;
-  transition: 450ms all;
+  transition: 350ms all;
   transform-origin: center left; }
 
 .owl-carousel .sample {
@@ -30,5 +27,5 @@
 
 .owl-carousel .sample:hover {
   opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.2); }
+  transition: 350ms transform;
+  transform: scale(1.13); }

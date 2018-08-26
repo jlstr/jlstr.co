@@ -24,12 +24,11 @@
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #110c11;
 }
 
 .container {
   width: 100%;
-  margin-top: -45px;
 }
 
 .left-element {
@@ -37,13 +36,15 @@
   position: absolute;
   left: 0px;
   z-index: 100;
-  margin: 95px 0 0 10px;
+  margin: 62px 0 0 10px;
+  color: antiquewhite;
 }
 
 .center-element {
   display: inline-block;
   position: absolute;
   left: 0;
+  padding: 0;
 }
 
 .right-element {
@@ -51,7 +52,8 @@
   position: absolute;
   right: 0px;
   z-index: 100;
-  margin: 95px 10px 0 0;
+  margin: 62px 10px 0 0;
+  color: antiquewhite;
 }
 
 
