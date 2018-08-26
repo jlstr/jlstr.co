@@ -3,7 +3,7 @@ $(() => {
 
   owl.owlCarousel({
     loop: true,
-    nav: true,
+    // nav: true,
     margin: 10,
     autoHeight: true,
     autoWidth: true,
@@ -23,7 +23,7 @@ $(() => {
     }
   });
 
-  $('.next').on('click', () => {
+  $('.next').on('click', () => {    
     owl.trigger('next.owl');
   });
 
