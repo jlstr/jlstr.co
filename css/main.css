@@ -32,15 +32,6 @@ h1 {
   background: #14496f;
 }
 
-.work-sample {
-  height: 160px;
-  width: 300px;
-  padding: 10px;
-  background: #211a23;
-  color: #666;
-  font-weight: bold;
-}
-
 .hiraku-open-btn {
   display: none;
 }
