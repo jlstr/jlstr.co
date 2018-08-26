@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   box-sizing: border-box; }
 
@@ -10,8 +9,7 @@
   transition: 450ms transform;
   font-size: 0;
   white-space: nowrap;
-  margin: 70.3125px 0;
-  padding-bottom: 10px; }
+  margin: 46.875px 0; }
 
 .tile {
   position: relative;
@@ -57,7 +55,6 @@
     background: rgba(0, 0, 0, 0.5);
     z-index: 1; }
   .tile__details:before {
-    content: '▶';
     left: 0;
     width: 100%;
     font-size: 30px;
@@ -71,22 +68,15 @@
 .tile__title {
   position: absolute;
   bottom: 0;
-  padding: 10px; 
-}
+  padding: 10px; }
 
 .row__inner:hover {
-  transform: translate3d(-62.5px, 0, 0); 
-}
-
-.row__inner:hover .tile {
-  opacity: .3; 
-}
-
-.row__inner:hover .tile:hover {
-  transform: scale(1.5);
-  opacity: 1;
-}
+  transform: translate3d(-25px, 0, 0); }
+  .row__inner:hover .tile {
+    opacity: 0.3; }
+    .row__inner:hover .tile:hover {
+      transform: scale(1.2);
+      opacity: 1; }
 
 .tile:hover ~ .tile {
-  transform: translate3d(125px, 0, 0); 
-}
+  transform: translate3d(50px, 0, 0); }
