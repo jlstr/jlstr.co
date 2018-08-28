@@ -29,7 +29,33 @@ h1 {
   width: 100%;
   margin-top: 500px;
   padding: 10px 0 10px 0;
-  background: #14496f;
+  background-color: #103956;
+
+  animation-name: color;
+  animation-duration: 6.6s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color {
+  0% {
+    background-color: #103956;
+  }
+
+  50% {
+    background-color: #14496f;
+  }
+
+  100% {
+    background-color: #103956;
+  }
+}
+
+.featured {
+  font-family: CurwenSans;
+  font-size: 17px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0 0 10px;
 }
 
 .hiraku-open-btn {
