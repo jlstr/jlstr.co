@@ -7,9 +7,9 @@ $(() => {
     margin: 0,
     autoHeight: true,
     autoWidth: true,
-    // autoplay: true,
-    // autoplayHoverPause: true,
-    // autoplayTimeout: 4000,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayTimeout: 4000,
     responsive: {
       0: {
         items: 1

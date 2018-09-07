@@ -36,12 +36,15 @@
   width: 100%;
   bottom: 0;
   text-align: center;
-  font-size: 40px;
+  font-size: 38px;
   color: white;
   visibility: hidden; }
 
 .tile .down {
-  visibility: hidden; }
+  visibility: hidden;
+  opacity: 0; }
 
 .tile:hover > .down {
-  visibility: visible; }
+  visibility: visible;
+  opacity: 0.75;
+  transition: opacity 1.5s; }
