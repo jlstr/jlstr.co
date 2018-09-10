@@ -1,11 +1,18 @@
-$darn-grey: #555;
-
 .sampler {
   position: relative;
   top: 160px;
   height: 320px;
-  
-  background-color: $darn-grey;
-  opacity: 0.8;
+  background-color: transparent;
+  opacity: 0.95;
   display: none;
+
+  border: 1px solid yellowgreen;
 }
+
+.work-sample {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+}
+
