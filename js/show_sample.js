@@ -1,5 +1,5 @@
 $(() => {
-  $('.owl-carousel').on('click', '.down', () => {
-    $(this).slideUp();
+  $('.owl-carousel').on('click', '.down', () => {    
+    $('.sampler').slideDown(15);
   });
 });

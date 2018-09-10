@@ -1,0 +1,7 @@
+.sampler {
+  position: relative;
+  top: 160px;
+  height: 320px;
+  background-color: #555;
+  opacity: 0.8;
+  display: none; }

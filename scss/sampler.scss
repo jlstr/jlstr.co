@@ -1,0 +1,11 @@
+$darn-grey: #555;
+
+.sampler {
+  position: relative;
+  top: 160px;
+  height: 320px;
+  
+  background-color: $darn-grey;
+  opacity: 0.8;
+  display: none;
+}
