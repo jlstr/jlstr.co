@@ -1,12 +1,17 @@
+$sampler_height: 320px;
+$dynamic_width: $sampler_height / 2;
+
 .sampler {
   position: relative;
   top: 160px;
-  height: 320px;
+  height: $sampler_height;
   background-color: transparent;
   opacity: 0.95;
+  // REQUIRED to perform Slide-Down
   display: none;
 
-  border: 1px solid yellowgreen;
+  // border: 1px dashed yellowgreen;
+  padding: 2px;
 }
 
 .work-sample {
@@ -14,5 +19,38 @@
   width: 100%;
   height: 100%;
   background-color: transparent;
+}
+
+.iphone-container {
+  position: relative;
+  height: 99%;
+  width: $dynamic_width;
+
+  /* Small Devices, Tablets */
+  @media only screen and (max-width : 768px) {
+    margin-top: 5%;
+    width: $sampler_height / 2.5;
+    height: $sampler_height - 80;
+  }
+
+  @media only screen and (max-width : 480px) {
+    margin-top: 10%;
+    width: $sampler_height / 4;
+    height: $sampler_height - 160;
+  }
+
+  padding: 2px;
+  // border: 1px solid orange;
+}
+
+.iphone {
+  position: relative;
+  display: inline-block;
+  background-image: url('/images/iphone_x.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  height: 100%;
+  width: 100%;
 }
 

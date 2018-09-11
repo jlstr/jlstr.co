@@ -7,6 +7,7 @@ app.use('/fonts', express.static('fonts'));
 app.use('/css', express.static('css'));
 app.use('/js', express.static('js'));
 app.use('/templates', express.static('templates'));
+app.use('/images', express.static('images'));
 
 app.get('/', (request, response) => {
   response.sendFile('index.html', { 'root': 'static' });

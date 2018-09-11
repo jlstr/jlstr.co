@@ -5,10 +5,36 @@
   background-color: transparent;
   opacity: 0.95;
   display: none;
-  border: 1px solid yellowgreen; }
+  padding: 2px; }
 
 .work-sample {
   position: relative;
   width: 100%;
   height: 100%;
   background-color: transparent; }
+
+.iphone-container {
+  position: relative;
+  height: 99%;
+  width: 160px;
+  /* Small Devices, Tablets */
+  padding: 2px; }
+  @media only screen and (max-width: 768px) {
+    .iphone-container {
+      margin-top: 5%;
+      width: 128px;
+      height: 240px; } }
+  @media only screen and (max-width: 480px) {
+    .iphone-container {
+      margin-top: 10%;
+      width: 80px;
+      height: 160px; } }
+
+.iphone {
+  position: relative;
+  display: inline-block;
+  background-image: url("/images/iphone_x.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%; }
