@@ -43,4 +43,6 @@ $(() => {
   $('.prev').on('click', () => {
     owl.trigger('prev.owl');
   });
+
+  $('body').css('overflow-x', 'hidden');
 });
