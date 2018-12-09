@@ -12,7 +12,8 @@
   width: 100%;
   height: 100%;
   background-color: transparent;
-  margin-top: 5px; }
+  margin-top: 5px;
+  padding-left: 15px; }
 
 .iphone-container {
   position: relative;
