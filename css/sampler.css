@@ -11,24 +11,21 @@
   position: relative;
   width: 100%;
   height: 100%;
-  background-color: transparent; }
+  background-color: transparent;
+  margin-top: 5px; }
 
 .iphone-container {
   position: relative;
-  height: 99%;
+  display: inline-block;
+  height: 100%;
   width: 160px;
   /* Small Devices, Tablets */
-  padding: 2px; }
+  padding: 2px;
+  z-index: 100; }
   @media only screen and (max-width: 768px) {
     .iphone-container {
-      margin-top: 5%;
-      width: 128px;
-      height: 240px; } }
-  @media only screen and (max-width: 480px) {
-    .iphone-container {
-      margin-top: 10%;
-      width: 80px;
-      height: 160px; } }
+      width: 120px;
+      height: 255px; } }
 
 .iphone {
   position: relative;
@@ -37,4 +34,28 @@
   background-size: contain;
   background-repeat: no-repeat;
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  z-index: 20;
+  overflow: hidden; }
+
+.screenshot {
+  position: absolute;
+  width: 90%;
+  height: 95%;
+  top: 0;
+  left: 0;
+  margin: 6% 0 0 4%;
+  z-index: 10;
+  border-radius: 20px; }
+  @media only screen and (max-width: 768px) {
+    .screenshot {
+      margin: 7px 0 0 2%;
+      width: 110px;
+      height: 225px; } }
+
+.pull-left {
+  margin-left: -60px;
+  z-index: 120; }
+  @media only screen and (max-width: 768px) {
+    .pull-left {
+      margin-left: -30px; } }
