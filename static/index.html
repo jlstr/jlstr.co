@@ -20,6 +20,8 @@
   <link rel="stylesheet" href="/css/netflix.css">
   <link rel="stylesheet" href="/css/sampler.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/profile.css">
+  <link rel="stylesheet" href="/css/nav.css">
   <!-- JS -->
   <!-- HIRAKU -->
   <script src="js/lib/hiraku.min.js"></script>
@@ -34,7 +36,7 @@
 </head>
 
 <body>
-  <header style="background: transparent; height: 45px; padding: 10px;">
+  <header class="hiraku-header">
     <button class="hiraku-open-btn" id="offcanvas-btn-left" data-toggle-offcanvas="#js-hiraku-offcanvas-1" style="border:none;">
       <span class="hiraku-open-btn-line"></span>
     </button>
@@ -42,11 +44,19 @@
       <ul><li>hogehoge</li></ul>
     </div>
   </header>
+
+  <nav class="navbar navbar-dark bg-dark main-nav">
+    <a class="navbar-brand" href="#">jlstr.co</a>
+  </nav>
+
   <div id="particles-js">
   </div>
   <div class="name">
-    <h1 style="font-size: 4.5vw;">JOSÉ ESTRELLA CAMPAÑA</h1>
-    <h1 style="font-size: 3vw;">PROFESSIONAL SOFTWARE ENGINEER</h1>
+    <div id="picture-container">
+      <div class="circled-portrait"></div>
+    </div>
+    <h1 style="font-size: 4.2vw; margin-top: -7px;">JOSÉ ESTRELLA CAMPAÑA</h1>
+    <h1 style="font-size: 2.5vw;">PROFESSIONAL SOFTWARE ENGINEER</h1>
   </div>
   <!-- MAIN CONTENT -->
   <div class="main-content">

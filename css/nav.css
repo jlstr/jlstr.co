@@ -1,0 +1,16 @@
+.hiraku-header {
+  background: transparent;
+  height: 45px;
+  padding: 10px;
+  display: none; }
+  @media only screen and (max-width: 480px) {
+    .hiraku-header {
+      display: block; } }
+
+.main-nav {
+  display: none; }
+
+@media screen and (min-width: 480px) {
+  /* Styles go here */
+  .main-nav {
+    display: block; } }

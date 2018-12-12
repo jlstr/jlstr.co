@@ -1,0 +1,18 @@
+#picture-container {
+  height: 120px;
+  text-align: center;
+}
+
+.circled-portrait {
+  height: 110px;
+  width: 110px;
+  background-color: transparent;
+  border-radius: 50%;
+  display: inline-block;
+  border: 7px solid whitesmoke;
+  background-image: url('/images/me.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  opacity: 0.9;
+}

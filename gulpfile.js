@@ -12,3 +12,9 @@ gulp.task('sampler', () => {
       .pipe(sass().on('error', sass.logError))
       .pipe(gulp.dest('./css/'));
 });
+
+gulp.task('nav', () => {
+  gulp.src('scss/**/*.scss')
+      .pipe(sass().on('error', sass.logError))
+      .pipe(gulp.dest('./css/'));
+});
