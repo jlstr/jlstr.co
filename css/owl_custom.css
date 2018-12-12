@@ -41,7 +41,10 @@
 }
 
 .center-element {
-  display: inline-block;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+
+  display: block;
   position: absolute;
   left: 0;
   padding: 0;
