@@ -3,14 +3,14 @@
 <div class="work-sample">
   <div class="iphone-container">
     <div class="iphone"></div>
-    <img src="/images/tiptotem/tiptotem-1.png" alt="veev" class="screenshot" />
+    <img src="/images/tiptotem/tiptotem-1.jpg" alt="veev" class="screenshot" />
   </div>
   <div class="iphone-container pull-left" style="top: -7px;">
     <div class="iphone"></div>
-    <img src="/images/tiptotem/tiptotem-2.png" alt="veev" class="screenshot" />
+    <img src="/images/tiptotem/tiptotem-2.jpg" alt="veev" class="screenshot" />
   </div>
   <div class="iphone-container pull-left" style="z-index: 110;">
     <div class="iphone"></div>
-    <img src="/images/tiptotem/tiptotem-3.png" alt="veev" class="screenshot" />
+    <img src="/images/tiptotem/tiptotem-3.jpg" alt="veev" class="screenshot" />
   </div>
 </div>
