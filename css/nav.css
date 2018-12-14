@@ -11,6 +11,5 @@
   display: none; }
 
 @media screen and (min-width: 480px) {
-  /* Styles go here */
   .main-nav {
     display: block; } }

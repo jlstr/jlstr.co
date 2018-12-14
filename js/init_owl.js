@@ -10,15 +10,19 @@ $(() => {
     autoplay: true,
     autoplayHoverPause: true,
     autoplayTimeout: 4000,
+    responsiveClass: true,
     responsive: {
       0: {
         items: 1
       },
-      600: {
+      480: {
         items: 3
       },
-      960: {
+      600: {
         items: 4
+      },
+      960: {
+        items: 5
       },
       1200: {
         items: 6
