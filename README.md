@@ -1,5 +1,6 @@
 # jlstr.co
 
-This will be my personal Web-Site, browse around, and take what you see in the Beta site with a grain of Salt.
+This will be my personal Website. It's mostly a Design exercise using Sass, Vanilla JS and running on a NodeJS instance at Heroku. Keep in mind it's a work in progress.
 
-Thanks!
+Thanks for stopping by!
+-José
