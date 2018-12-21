@@ -10,6 +10,7 @@ app.use('/templates', express.static('templates'));
 app.use('/images', express.static('images'));
 
 app.get('/', (request, response) => {
+  console.log('================================== INDEX VISITED ==================================');
   response.sendFile('index.html', { 'root': 'static' });
 });
 
