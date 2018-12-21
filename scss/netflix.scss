@@ -34,10 +34,24 @@ $tiptotem-blue: #1babcc;
     width: $tileWidth * 0.6;
   }
 
+  img {
+    width: 50px !important;
+    height: 50px !important;
+    float: left;
+    margin: 45px 0 0 30px;
+
+    @media screen and (max-width: 480px) {
+      width: 60px !important;
+      height: 60px !important;
+      margin-left: 45px;
+    }
+  }
+
   .title {
     position: absolute;
     top: 40%;
     width: 100%;
+    padding-left: 10px;
     text-align: center;
     color: white;
     font-size: 18px;
@@ -45,7 +59,8 @@ $tiptotem-blue: #1babcc;
     font-family: CurwenSans;
 
     @media screen and (max-width: 480px) {
-      font-size: 13px;
+      // font-size: 13px;
+      display: none;
     }
   }
 }
