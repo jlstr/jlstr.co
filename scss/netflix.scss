@@ -26,10 +26,13 @@ $tiptotem-blue: #1babcc;
   display: inline-block;
   width: $tileWidth;
   height: $tileHeight;
-  font-size: 20px;
   cursor: pointer;
   transition: $duration all;
   transform-origin: center left;
+
+  @media screen and (max-width: 480px) {
+    width: $tileWidth * 0.6;
+  }
 
   .title {
     position: absolute;
@@ -37,8 +40,13 @@ $tiptotem-blue: #1babcc;
     width: 100%;
     text-align: center;
     color: white;
+    font-size: 18px;
     font-weight: bold;
     font-family: CurwenSans;
+
+    @media screen and (max-width: 480px) {
+      font-size: 13px;
+    }
   }
 }
 
@@ -69,6 +77,10 @@ $tiptotem-blue: #1babcc;
   transition: $duration transform;
   transform: scale($growFactor);
   margin-right: 25px;
+
+  @media screen and (max-width: 480px) {
+    margin-right: 15px;
+  }
 }
 
 // Show Arrow down when Hover over 

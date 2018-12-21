@@ -10,18 +10,24 @@
   display: inline-block;
   width: 250px;
   height: 140.625px;
-  font-size: 20px;
   cursor: pointer;
   transition: 350ms all;
   transform-origin: center left; }
+  @media screen and (max-width: 480px) {
+    .tile {
+      width: 150px; } }
   .tile .title {
     position: absolute;
     top: 40%;
     width: 100%;
     text-align: center;
     color: white;
+    font-size: 18px;
     font-weight: bold;
     font-family: CurwenSans; }
+    @media screen and (max-width: 480px) {
+      .tile .title {
+        font-size: 13px; } }
 
 .tile.veev {
   background: #C8121E; }
@@ -44,6 +50,9 @@
   transition: 350ms transform;
   transform: scale(1.2);
   margin-right: 25px; }
+  @media screen and (max-width: 480px) {
+    .owl-carousel .sample:hover {
+      margin-right: 15px; } }
 
 .tile .down {
   display: block;
