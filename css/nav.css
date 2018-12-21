@@ -12,4 +12,4 @@
 
 @media screen and (min-width: 480px) {
   .main-nav {
-    display: block; } }
+    display: flex; } }
