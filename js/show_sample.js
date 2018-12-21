@@ -21,8 +21,13 @@ $(() => {
 });
 
 function loadSampleTemplate(templateName='veev') {
-  $.get(`/templates/${templateName}.mst`, (template) => {
-    var rendered = Mustache.render(template);
-    $(rendered).appendTo($('.sampler').empty()).hide().fadeIn(444);
-  });
+  // $.get(`/templates/${templateName}.mst`, (template) => {
+  //   var rendered = Mustache.render(template);
+  //   $(rendered).appendTo($('.sampler').empty()).hide().fadeIn(444);
+  // });
+  //
+  var template = $(`#${templateName}`).html();
+  Mustache.parse(template);
+  var rendered = Mustache.render(template);
+  $(rendered).appendTo($('.sampler').empty()).hide().fadeIn(444);
 }
