@@ -13,4 +13,23 @@
     <div class="iphone"></div>
     <img src="/images/tiptotem/tiptotem-3.jpg" alt="veev" class="screenshot" />
   </div>
+  <div class="summary">
+    <p>
+      Tiptotem is a Pioneer FinTech project with a social networking approach that helps its users Pay and connect with those who Pay them using a Hybrid Mobile Wallet. Tiptotem is a platform driven by a Back-End API that makes the P2P payment process transparent to its users by integrating a number of 3rd Party Payment Gateways such as BrainTree and Dwolla.
+    </p>
+    <p class="tech">
+      Tech Stack
+    </p>
+    <p>
+      <i class="devicon-android-plain-wordmark colored"></i>
+      <i class="devicon-apple-original"></i>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
+      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-redis-plain-wordmark colored"></i>
+    </p>
+  </div>
 </div>

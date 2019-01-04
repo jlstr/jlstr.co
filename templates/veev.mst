@@ -13,17 +13,14 @@
     <div class="iphone"></div>
     <img src="/images/veev/690x0w__3.jpg" alt="veev" class="screenshot" />
   </div>
-
   <div class="summary">
     <p>
       VEEV is the Cryptocurrency for everyday payments. VEEV enables secure, fast, immutable, and low cost transactions to its users via the power of <a href="https://ethereum.org/" target="_blank">BlockChain Technology</a>.
 VEEV aims to replace conventional, legacy payment systems like credit-cards and other intermediaries such as banks. VEEV turns your phone into your Wallet.
     </p>
-
     <p class="tech">
       Tech Stack
     </p>
-
     <p>
       <i class="devicon-apple-original colored"></i>
       <i class="devicon-swift-plain-wordmark"></i>
