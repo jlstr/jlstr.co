@@ -14,6 +14,46 @@
   background-color: transparent;
   margin-top: 5px;
   padding-left: 15px; }
+  @media screen and (max-width: 480px) {
+    .work-sample {
+      height: 140%; } }
+  .work-sample .summary {
+    position: absolute;
+    display: inline-block;
+    max-width: 60%;
+    height: auto;
+    margin: 17px 0 0 15px;
+    color: white;
+    font-size: 15px;
+    font-family: OpenSans;
+    overflow-wrap: break-word; }
+    @media only screen and (max-width: 768px) {
+      .work-sample .summary {
+        font-size: 12px; } }
+    @media screen and (max-width: 480px) {
+      .work-sample .summary {
+        position: relative;
+        float: left;
+        margin: -5px 0 0 15px;
+        max-width: 90%; } }
+    .work-sample .summary p {
+      padding: 3px;
+      margin: 0px; }
+    .work-sample .summary p.tech {
+      margin-top: 13px;
+      font-family: AudioWide; }
+    .work-sample .summary a {
+      color: white;
+      text-decoration: underline; }
+    .work-sample .summary i {
+      margin: 0 5px 0 5px;
+      font-size: 50px; }
+      @media only screen and (max-width: 768px) {
+        .work-sample .summary i {
+          font-size: 40px; } }
+      @media screen and (max-width: 480px) {
+        .work-sample .summary i {
+          font-size: 30px; } }
 
 .iphone-container {
   position: relative;

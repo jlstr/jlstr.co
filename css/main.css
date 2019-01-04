@@ -12,6 +12,16 @@ body {
   src: url("/fonts/CurwenSans.ttf");
 }
 
+@font-face {
+  font-family: OpenSans;
+  src: url("/fonts/OpenSans.ttf");
+}
+
+@font-face {
+  font-family: AudioWide;
+  src: url("/fonts/AudioWide.ttf");
+}
+
 h1 {
   color: white;
   text-align: center;
@@ -32,7 +42,7 @@ h1 {
   background-color: #103956;
 
   animation-name: color;
-  animation-duration: 6.6s;
+  animation-duration: 7.7s;
   animation-iteration-count: infinite;
 }
 
@@ -42,7 +52,8 @@ h1 {
   }
 
   50% {
-    background-color: #14496f;
+    /* background-color: #14496f */
+    background-color:  #165079;
   }
 
   100% {

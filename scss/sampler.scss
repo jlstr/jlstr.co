@@ -19,6 +19,64 @@ $dynamic_width: $sampler_height / 2;
   background-color: transparent;
   margin-top: 5px;
   padding-left: 15px;
+  // border: 1px dashed greenyellow;
+
+  @media screen and (max-width: 480px) {
+    height: 140%;
+  }
+
+  .summary {
+    position: absolute;
+    display: inline-block;
+    max-width: 60%;
+    height: auto;
+    margin: 17px 0 0 15px;
+    color: white;
+    font-size: 15px;
+    font-family: OpenSans;
+    overflow-wrap: break-word;
+    // border: 1px dashed lightsalmon;
+
+    @media only screen and (max-width : 768px) {
+      font-size: 12px;
+    }
+
+    @media screen and (max-width: 480px) {
+      position: relative;
+      float: left;
+      margin: -5px 0 0 15px;
+      // border: 1px dashed lightsalmon;
+      max-width: 90%;
+    }
+
+    p {
+      padding: 3px;
+      margin: 0px;
+    }
+
+    p.tech {
+      margin-top: 13px;
+      font-family: AudioWide;
+    }
+
+    a {
+      color: white;
+      text-decoration: underline;
+    }
+
+    i {
+      margin: 0 5px 0 5px;
+      font-size: 50px;
+
+      @media only screen and (max-width : 768px) {
+        font-size: 40px;
+      }
+
+      @media screen and (max-width: 480px) {
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 .iphone-container {
