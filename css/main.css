@@ -35,15 +35,20 @@ h1 {
 }
 
 .main-content {
-  height: 800px;
+  height: 866px;
   width: 100%;
   margin-top: 500px;
   padding: 10px 0 10px 0;
   background-color: #103956;
-
   animation-name: color;
   animation-duration: 7.7s;
   animation-iteration-count: infinite;
+}
+
+@media screen and (max-width: 480px) {
+  .main-content {
+    height: 1000px;
+  } 
 }
 
 @keyframes color {

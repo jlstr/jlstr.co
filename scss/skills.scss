@@ -1,0 +1,23 @@
+#skills-main {
+  display: block;
+  width: 80%;
+  margin: 210px auto 0 auto;
+  font-family: OpenSans;
+  color: white;
+
+  @media screen and (max-width: 480px) {
+    margin-top: 366px;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: AudioWide;
+    @media screen and (max-width: 480px) {
+      font-size: 19px;
+    }
+  }
+}
+
+.title > i {
+  font-size: 23px;
+}
