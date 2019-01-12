@@ -1,7 +1,7 @@
 #skills-main {
   display: block;
   width: 85%;
-  margin: 190px auto 0 auto;
+  margin: 25px auto 0 auto;
   padding: 5px;
   font-family: OpenSans;
   color: white; }
@@ -14,3 +14,11 @@
 
 .title > i {
   font-size: 23px; }
+
+.divider {
+  width: 100%;
+  margin-top: 205px;
+  display: block;
+  height: 1px;
+  background-color: grey;
+  opacity: 0.6; }
