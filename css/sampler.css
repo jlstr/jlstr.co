@@ -6,6 +6,12 @@
   opacity: 0.95;
   display: none;
   padding: 2px; }
+  @media only screen and (max-width: 768px) {
+    .sampler {
+      height: 370px; } }
+  @media screen and (max-width: 480px) {
+    .sampler {
+      height: 520px; } }
 
 .work-sample {
   position: relative;
@@ -24,7 +30,7 @@
     height: auto;
     margin: 17px 0 0 15px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-family: OpenSans;
     overflow-wrap: break-word; }
     @media only screen and (max-width: 768px) {
@@ -47,10 +53,10 @@
       text-decoration: underline; }
     .work-sample .summary i {
       margin: 0 5px 0 5px;
-      font-size: 50px; }
+      font-size: 40px; }
       @media only screen and (max-width: 768px) {
         .work-sample .summary i {
-          font-size: 40px; } }
+          font-size: 35px; } }
       @media screen and (max-width: 480px) {
         .work-sample .summary i {
           font-size: 30px; } }

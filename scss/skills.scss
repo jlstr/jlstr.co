@@ -1,13 +1,10 @@
 #skills-main {
   display: block;
-  width: 80%;
-  margin: 210px auto 0 auto;
+  width: 85%;
+  margin: 190px auto 0 auto;
+  padding: 5px;
   font-family: OpenSans;
   color: white;
-
-  @media screen and (max-width: 480px) {
-    margin-top: 366px;
-  }
 
   h4 {
     text-align: center;

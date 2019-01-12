@@ -1,4 +1,6 @@
 $sampler_height: 320px;
+$sampler_height-mobile: 520px;
+$sampler_height-tablet: 370px;
 $dynamic_width: $sampler_height / 2;
 
 .sampler {
@@ -10,6 +12,14 @@ $dynamic_width: $sampler_height / 2;
   // REQUIRED to perform Slide-Down
   display: none;
   padding: 2px;
+
+  @media only screen and (max-width : 768px) {
+    height: $sampler_height-tablet;
+  }
+
+  @media screen and (max-width: 480px) {
+    height: $sampler_height-mobile;
+  }
 }
 
 .work-sample {
@@ -32,7 +42,7 @@ $dynamic_width: $sampler_height / 2;
     height: auto;
     margin: 17px 0 0 15px;
     color: white;
-    font-size: 15px;
+    font-size: 14px;
     font-family: OpenSans;
     overflow-wrap: break-word;
     // border: 1px dashed lightsalmon;
@@ -66,10 +76,10 @@ $dynamic_width: $sampler_height / 2;
 
     i {
       margin: 0 5px 0 5px;
-      font-size: 50px;
+      font-size: 40px;
 
       @media only screen and (max-width : 768px) {
-        font-size: 40px;
+        font-size: 35px;
       }
 
       @media screen and (max-width: 480px) {
