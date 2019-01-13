@@ -152,13 +152,8 @@ $desktop_screenshot: 170px;
   height: 100%;
   width: $desktop_width;
 
-  // @media only screen and (max-width: 768px) {
-  //   width: $desktop_width / 1.2;
-  //   height: $desktop_width / 1.2;
-  // }
-
   @media screen and (max-width: 480px) {
-    margin: 20px 0 0 7px;
+    margin-top: 20px;
     width: $desktop_width;
     height: $desktop_width;
   }
