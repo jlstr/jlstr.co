@@ -1,0 +1,21 @@
+<!-- WORK SAMPLE FOR VEEV -->
+
+<div class="work-sample">
+  <div class="desktop-container">
+    <div class="desktop"></div>
+  </div>
+  <div class="summary">
+    <p>
+      Stack Builders is an international software consultancy with offices in New York and Latin America
+    </p>
+    <p class="tech">
+      Tech Stack
+    </p>
+    <p>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
+      <i class="devicon-heroku-plain-wordmark colored"></i>
+    </p>
+  </div>
+</div>

@@ -6,6 +6,9 @@ $(() => {
     var classes = target.attr('class').split(' ');
     var templateName = (classes.length > 1) ? classes.slice(-1)[0] : null;
 
+    console.log('TEMPLATE =>', templateName);
+    
+
     if (!templateName) {
       sampler.fadeOut(180, () => {
         sampler.empty();

@@ -106,3 +106,30 @@
   @media only screen and (max-width: 768px) {
     .pull-left {
       margin-left: -30px; } }
+
+.desktop-container {
+  position: relative;
+  margin-top: -40px;
+  display: inline-block;
+  height: 100%;
+  width: 370px; }
+  @media only screen and (max-width: 768px) {
+    .desktop-container {
+      width: 291.66667px;
+      height: 291.66667px; } }
+  @media screen and (max-width: 480px) {
+    .desktop-container {
+      margin: 25px 0 0 5%;
+      width: 350px;
+      height: 350px; } }
+  .desktop-container .desktop {
+    position: relative;
+    display: inline-block;
+    background-image: url("/images/desktop.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    height: 100%;
+    width: 100%;
+    z-index: 20; }
