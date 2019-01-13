@@ -46,6 +46,13 @@
 .tile.tiptotem {
   background: #1babcc; }
 
+.tile.stackbuilders {
+  background: white; }
+  .tile.stackbuilders .title {
+    color: black; }
+  .tile.stackbuilders i {
+    color: lightgray; }
+
 .owl-carousel .sample {
   visibility: hidden; }
 

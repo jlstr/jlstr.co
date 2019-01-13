@@ -113,15 +113,11 @@
   display: inline-block;
   height: 100%;
   width: 370px; }
-  @media only screen and (max-width: 768px) {
-    .desktop-container {
-      width: 291.66667px;
-      height: 291.66667px; } }
   @media screen and (max-width: 480px) {
     .desktop-container {
-      margin: 25px 0 0 5%;
-      width: 350px;
-      height: 350px; } }
+      margin: 20px 0 0 7px;
+      width: 370px;
+      height: 370px; } }
   .desktop-container .desktop {
     position: relative;
     display: inline-block;
@@ -133,3 +129,10 @@
     height: 100%;
     width: 100%;
     z-index: 20; }
+  .desktop-container .screenshot-desktop {
+    position: absolute;
+    width: 272px;
+    height: 170px;
+    top: 80px;
+    left: 50px;
+    z-index: 10; }

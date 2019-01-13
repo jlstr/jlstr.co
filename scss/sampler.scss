@@ -2,7 +2,8 @@ $sampler_height: 320px;
 $sampler_height-mobile: 520px;
 $sampler_height-tablet: 370px;
 $dynamic_width: $sampler_height / 2;
-$desktop_width: 350px;
+$desktop_width: 370px;
+$desktop_screenshot: 170px;
 
 .sampler {
   position: relative;
@@ -149,16 +150,15 @@ $desktop_width: 350px;
   margin-top: -40px;
   display: inline-block;
   height: 100%;
-  width: $desktop_width + 20px;
-  // border: 1px dashed greenyellow;
+  width: $desktop_width;
 
-  @media only screen and (max-width: 768px) {
-    width: $desktop_width / 1.2;
-    height: $desktop_width / 1.2;
-  }
+  // @media only screen and (max-width: 768px) {
+  //   width: $desktop_width / 1.2;
+  //   height: $desktop_width / 1.2;
+  // }
 
   @media screen and (max-width: 480px) {
-    margin: 25px 0 0 5%;
+    margin: 20px 0 0 7px;
     width: $desktop_width;
     height: $desktop_width;
   }
@@ -175,6 +175,14 @@ $desktop_width: 350px;
     height: 100%;
     width: 100%;
     z-index: 20;
-    // overflow: hidden;
+  }
+
+  .screenshot-desktop {
+    position: absolute;
+    width: $desktop_screenshot * 1.6;
+    height: $desktop_screenshot;
+    top: 80px;
+    left: 50px;
+    z-index: 10;
   }
 }

@@ -73,6 +73,18 @@ $tiptotem-blue: #1babcc;
   background: $tiptotem-blue;
 }
 
+.tile.stackbuilders {
+  background: white;
+
+  .title {
+    color: black;
+  }
+
+  i {
+    color: lightgray;
+  }
+}
+
 // HOVER EFFECTS, NEED TO BE IN THIS EXACT ORDER
 .owl-carousel .sample {
   visibility: hidden;
