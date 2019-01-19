@@ -1,19 +1,21 @@
-$sampler_height: 320px;
-$sampler_height-mobile: 520px;
-$sampler_height-tablet: 370px;
+$sampler_height: 340px;
+$sampler_height-mobile: 590px;
+$sampler_height-tablet: 390px;
 $dynamic_width: $sampler_height / 2;
 $desktop_width: 370px;
 $desktop_screenshot: 170px;
 
 .sampler {
   position: relative;
-  top: 160px;
+  top: 150px;
   height: $sampler_height;
   background-color: transparent;
+  background-image: linear-gradient(to left, #103956, #165079);
   opacity: 0.95;
   // REQUIRED to perform Slide-Down
   display: none;
-  padding: 2px;
+  padding: 10px 2px 2px 2px;
+
 
   @media only screen and (max-width : 768px) {
     height: $sampler_height-tablet;

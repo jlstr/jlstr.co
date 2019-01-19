@@ -1,0 +1,21 @@
+<div class="work-sample">
+  <div class="desktop-container">
+    <div class="desktop"></div>
+    <img src="/images/ceiba/ceiba_screenshot.jpg" alt="veev" class="screenshot-desktop" />
+  </div>
+  <div class="summary">
+    <p>
+      Ceiba Software is one of the biggest software development firms in Colombia. With offices in Medellin and Bogota. Ceiba employs around 350 in-house employees.
+    </p>
+    <p class="tech">
+      Tech Stack
+    </p>
+    <p>
+      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-oracle-original colored"></i>
+    </p>
+  </div>
+</div>

@@ -1,0 +1,28 @@
+<div class="work-sample">
+  <div class="desktop-container">
+    <div class="desktop"></div>
+    <img src="/images/upwork/upwork_screenshot.jpg" alt="veev" class="screenshot-desktop" />
+  </div>
+  <div class="summary">
+    <p>
+      Upwork, formerly Elance-oDesk is a global freelancing platform where businesses and independent professionals connect and collaborate remotely.
+    </p>
+    <p class="tech">
+      Tech Stack
+    </p>
+    <p>
+      <i class="devicon-rails-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-backbonejs-plain-wordmark"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
+      <i class="devicon-google-plain-wordmark"></i>
+      <i class="devicon-mysql-plain-wordmark"></i>
+      <i class="devicon-heroku-plain-wordmark colored"></i>
+      <i class="devicon-redis-plain-wordmark colored"></i>
+      <i class="devicon-nginx-plain-wordmark colored"></i>
+    </p>
+  </div>
+</div>

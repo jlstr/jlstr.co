@@ -1,17 +1,18 @@
 .sampler {
   position: relative;
-  top: 160px;
-  height: 320px;
+  top: 150px;
+  height: 340px;
   background-color: transparent;
+  background-image: linear-gradient(to left, #103956, #165079);
   opacity: 0.95;
   display: none;
-  padding: 2px; }
+  padding: 10px 2px 2px 2px; }
   @media only screen and (max-width: 768px) {
     .sampler {
-      height: 370px; } }
+      height: 390px; } }
   @media screen and (max-width: 480px) {
     .sampler {
-      height: 520px; } }
+      height: 590px; } }
 
 .work-sample {
   position: relative;
@@ -65,7 +66,7 @@
   position: relative;
   display: inline-block;
   height: 100%;
-  width: 160px;
+  width: 170px;
   /* Small Devices, Tablets */
   padding: 2px;
   z-index: 100; }

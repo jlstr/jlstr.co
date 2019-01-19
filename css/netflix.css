@@ -46,11 +46,18 @@
 .tile.tiptotem {
   background: #1babcc; }
 
-.tile.stackbuilders {
+.tile.stackbuilders, .tile.ceiba {
   background: white; }
-  .tile.stackbuilders .title {
+  .tile.stackbuilders .title, .tile.ceiba .title {
     color: black; }
-  .tile.stackbuilders i {
+  .tile.stackbuilders i, .tile.ceiba i {
+    color: lightgray; }
+
+.tile.upwork {
+  background: #fffafa; }
+  .tile.upwork .title {
+    color: black; }
+  .tile.upwork i {
     color: lightgray; }
 
 .owl-carousel .sample {

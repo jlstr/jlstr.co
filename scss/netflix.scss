@@ -73,7 +73,7 @@ $tiptotem-blue: #1babcc;
   background: $tiptotem-blue;
 }
 
-.tile.stackbuilders {
+.tile.stackbuilders, .tile.ceiba {
   background: white;
 
   .title {
@@ -84,6 +84,19 @@ $tiptotem-blue: #1babcc;
     color: lightgray;
   }
 }
+
+.tile.upwork {
+  background: #fffafa;
+
+  .title {
+    color: black;
+  }
+
+  i {
+    color: lightgray;
+  }
+}
+
 
 // HOVER EFFECTS, NEED TO BE IN THIS EXACT ORDER
 .owl-carousel .sample {
