@@ -49,6 +49,9 @@
     .work-sample .summary p.tech {
       margin-top: 13px;
       font-family: AudioWide; }
+    .work-sample .summary p.role {
+      font-weight: bold;
+      color: #28d252; }
     .work-sample .summary a {
       color: white;
       text-decoration: underline; }
