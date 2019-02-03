@@ -1,13 +1,11 @@
 $(() => {
+  var sampler = $('.sampler');
+
   $('.owl-carousel').on('click', '.down', (event) => {
-    var sampler = $('.sampler');
 
     var target = $(event.target).parent();
     var classes = target.attr('class').split(' ');
     var templateName = (classes.length > 1) ? classes.slice(-1)[0] : null;
-
-    console.log('TEMPLATE =>', templateName);
-    
 
     if (!templateName) {
       sampler.fadeOut(180, () => {
@@ -17,15 +15,22 @@ $(() => {
       return;
     }
 
-    sampler.slideDown(99, () => {
+    sampler.slideDown(299, () => {
       loadSampleTemplate(templateName);
     });
+  });
+
+  $('.sampler').on('click', '.dismiss', () => {    
+    sampler.slideUp(150).empty();
   });
 });
 
 function loadSampleTemplate(templateName='veev') {
   $.get(`/templates/${templateName}.mst`, (template) => {
-    var rendered = Mustache.render(template);
-    $(rendered).appendTo($('.sampler').empty()).hide().fadeIn(444);
+    var sampler = $('.sampler');
+    var rendered = $(Mustache.render(template));
+
+    sampler.empty().hide();
+    sampler.append(rendered).fadeIn(400);
   });
 }

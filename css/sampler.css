@@ -1,7 +1,7 @@
 .sampler {
   position: relative;
   top: 150px;
-  height: 340px;
+  height: 345px;
   background-color: transparent;
   background-image: linear-gradient(to left, #103956, #165079);
   opacity: 0.95;
@@ -12,7 +12,16 @@
       height: 390px; } }
   @media screen and (max-width: 480px) {
     .sampler {
-      height: 590px; } }
+      height: 600px; } }
+  .sampler .dismiss {
+    float: right;
+    margin: 7px 10px 0 0;
+    color: #bababa;
+    opacity: 0.66;
+    font-size: 25px;
+    z-index: 999; }
+    .sampler .dismiss :hover {
+      cursor: pointer; }
 
 .work-sample {
   position: relative;
@@ -69,7 +78,7 @@
   position: relative;
   display: inline-block;
   height: 100%;
-  width: 170px;
+  width: 172.5px;
   /* Small Devices, Tablets */
   padding: 2px;
   z-index: 100; }
@@ -119,7 +128,8 @@
   width: 370px; }
   @media screen and (max-width: 480px) {
     .desktop-container {
-      margin-top: 20px;
+      margin-top: -66px;
+      margin-left: -15px;
       width: 370px;
       height: 370px; } }
   .desktop-container .desktop {

@@ -1,5 +1,5 @@
-$sampler_height: 340px;
-$sampler_height-mobile: 590px;
+$sampler_height: 345px;
+$sampler_height-mobile: 600px;
 $sampler_height-tablet: 390px;
 $dynamic_width: $sampler_height / 2;
 $desktop_width: 370px;
@@ -23,6 +23,21 @@ $desktop_screenshot: 170px;
 
   @media screen and (max-width: 480px) {
     height: $sampler_height-mobile;
+  }
+
+  .dismiss {
+    float: right;
+    margin: 7px 10px 0 0;
+
+    color: #bababa;
+    opacity: 0.66;
+    font-size: 25px;
+
+    z-index: 999;
+
+    :hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -162,7 +177,8 @@ $desktop_screenshot: 170px;
   width: $desktop_width;
 
   @media screen and (max-width: 480px) {
-    margin-top: 20px;
+    margin-top: -66px;
+    margin-left: -15px;
     width: $desktop_width;
     height: $desktop_width;
   }

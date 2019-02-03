@@ -1,6 +1,6 @@
 <!-- WORK SAMPLE FOR VEEV -->
-
 <div class="work-sample">
+  <i class="fas fa-times dismiss" id="dismiss"></i>
   <div class="iphone-container">
     <div class="iphone"></div>
     <img src="/images/veev/690x0w__2.jpg" alt="veev" class="screenshot" />

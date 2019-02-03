@@ -1,4 +1,5 @@
 <div class="work-sample">
+  <i class="fas fa-times dismiss" id="dismiss"></i>
   <div class="desktop-container">
     <div class="desktop"></div>
     <img src="/images/stackbuilders/sb_shot.jpg" alt="veev" class="screenshot-desktop" />

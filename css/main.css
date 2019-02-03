@@ -67,11 +67,11 @@ h1 {
 }
 
 .featured {
-  font-family: CurwenSans;
-  font-size: 17px;
+  font-family: OpenSans;
+  font-size: 19px;
   font-weight: bold;
   color: white;
-  margin: 10px 0 0 10px;
+  margin: 10px 0 5px 10px;
 }
 
 .hiraku-open-btn {
