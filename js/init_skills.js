@@ -1,32 +1,36 @@
 $(() => {
-  // var bar = new ProgressBar.Line('#skills-main', {
-  //   strokeWidth: 4,
-  //   easing: 'easeInOut',
-  //   duration: 1400,
-  //   color: '#FFEA82',
-  //   trailColor: '#eee',
-  //   trailWidth: 1,
-  //   svgStyle: {width: '100%', height: '100%'},
-  //   text: {
-  //     style: {
-  //       // Text color.
-  //       // Default: same as stroke color (options.color)
-  //       color: '#999',
-  //       position: 'absolute',
-  //       right: '0',
-  //       top: '30px',
-  //       padding: 0,
-  //       margin: 0,
-  //       transform: null
-  //     },
-  //     autoStyleContainer: false
-  //   },
-  //   from: {color: '#FFEA82'},
-  //   to: {color: '#ED6A5A'},
-  //   step: (state, bar) => {
-  //     bar.setText(Math.round(bar.value() * 100) + ' %');
-  //   }
-  // });
-  
-  // bar.animate(1.0);  // Number from 0.0 to 1.0
+  for (const skill of skills) {    
+    drawSkill(skill);
+  }
 });
+
+var GoogleBlue = '#4885ed';
+var GoogleGreen = '#3cba54';
+var GoogleRed = '#db3236';
+var GoogleYellow = '#f4c20d';
+
+var skills = [
+  { name: 'Software Engineering', 'color': GoogleBlue, percentage: 0.85 },
+  { name: 'Algorithms', 'color': GoogleRed, percentage: 0.7 },
+  { name: 'Distributed Systems', 'color': GoogleYellow, percentage: 0.8 },
+  { name: 'Mobile Application Development', 'color': GoogleBlue, percentage: 0.9 },
+  { name: 'Web Development', 'color': GoogleGreen, percentage: 0.85 },
+  { name: 'System Design', 'color': GoogleRed, percentage: 0.75 },
+]
+
+var drawSkill = (skill) => {
+  var info = $('<p class="info"></p>');
+  info.text(skill.name);
+  var skillBar = $('<div class="skill"></div>');
+  var container = $('#skills-main');
+  container.append(info);
+  container.append(skillBar);
+
+  var bar = new ProgressBar.Line(skillBar.get(0), {
+    color: skill.color,
+    strokeWidth: 0.5,
+    duration: 2000
+  });
+
+  bar.animate(skill.percentage);
+}
