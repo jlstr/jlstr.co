@@ -1,24 +1,32 @@
 #skills-main {
   display: block;
-  width: 90%;
-  margin: 100px auto 0 auto;
-  padding: 5px;
+  width: 75%;
+  height: 300px;
+  margin: 20px auto 0 auto;
+  padding: 5px 0 0 10px;
   font-family: OpenSans;
-  color: white; }
+  color: white;
+  border-top: 1px solid #a8a8a8; }
   #skills-main h4 {
     text-align: center;
-    font-family: AudioWide; }
+    margin: 0;
+    font-size: 24px; }
     @media screen and (max-width: 480px) {
       #skills-main h4 {
         font-size: 19px; } }
-  #skills-main p.info {
-    width: 100%;
+  #skills-main p.info, #skills-main p.percent {
+    float: left;
+    clear: left;
     padding: 0;
-    margin: 1px;
+    margin: 10px 0 8px 0;
     font-size: 14px; }
     @media screen and (max-width: 480px) {
-      #skills-main p.info {
+      #skills-main p.info, #skills-main p.percent {
         font-size: 11px; } }
+  #skills-main p.percent {
+    margin-left: 10px;
+    clear: right;
+    font-weight: bold; }
   #skills-main .skill {
     width: 100%;
     height: 15px;
@@ -37,3 +45,7 @@
   height: 1px;
   background-color: #A7AfB2;
   opacity: 0.35; }
+
+.big-title {
+  text-align: center;
+  color: #fff; }

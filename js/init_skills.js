@@ -20,16 +20,23 @@ var skills = [
 
 var drawSkill = (skill) => {
   var info = $('<p class="info"></p>');
+  var percent = $('<p class="info percent"></p>');
   info.text(skill.name);
   var skillBar = $('<div class="skill"></div>');
   var container = $('#skills-main');
   container.append(info);
+  container.append(percent);
   container.append(skillBar);
 
   var bar = new ProgressBar.Line(skillBar.get(0), {
     color: skill.color,
     strokeWidth: 0.5,
-    duration: 2000
+    duration: 2000,
+    step: (state, bar) => {
+      // bar.setText(Math.round(bar.value() * 100) + ' %');
+      // console.log(bar.value());
+      percent.text(Math.round(bar.value() * 100) + ' %');
+    }
   });
 
   bar.animate(skill.percentage);

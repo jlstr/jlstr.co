@@ -1,28 +1,42 @@
 #skills-main {
   display: block;
-  width: 90%;
-  margin: 100px auto 0 auto;
-  padding: 5px;
+  width: 75%;
+  height: 300px;
+  margin: 20px auto 0 auto;
+  padding: 5px 0 0 10px;
   font-family: OpenSans;
   color: white;
+  border-top: 1px solid #a8a8a8;
+  // border-radius: 5px;
 
   h4 {
     text-align: center;
-    font-family: AudioWide;
+    margin: 0;
+    // font-family: AudioWide;
+    font-size: 24px;
     @media screen and (max-width: 480px) {
       font-size: 19px;
     }
   }
 
-  p.info {
-    width: 100%;
+  p.info, p.percent {
+    float: left;
+    clear: left;
     padding: 0;
-    margin: 1px;
+    margin: 10px 0 8px 0;
     font-size: 14px;
 
     @media screen and (max-width: 480px) {
       font-size: 11px;
     }
+  }
+
+  p.percent {
+    // float: right;
+    // margin-right: 2%;
+    margin-left: 10px;
+    clear: right;
+    font-weight: bold;
   }
 
   .skill {
@@ -48,4 +62,9 @@
   height: 1px;
   background-color: #A7AfB2;
   opacity: 0.35;
+}
+
+.big-title {
+  text-align: center;
+  color: #fff;
 }
