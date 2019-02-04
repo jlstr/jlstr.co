@@ -1,0 +1,26 @@
+.myname {
+  color: #fff;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin-top: 20px;
+  padding-bottom: 10px; }
+
+.articles {
+  width: 75%;
+  margin: 0 auto; }
+  .articles .article {
+    display: block;
+    overflow: hidden;
+    margin: 40px 0 0 10%;
+    font-size: 20px; }
+    .articles .article .title .date {
+      float: left;
+      color: #fff;
+      font-size: 75%;
+      font-weight: lighter;
+      margin: 0; }
+    .articles .article .title a {
+      float: left;
+      margin-left: 30px;
+      color: #fff;
+      font-size: 140%; }

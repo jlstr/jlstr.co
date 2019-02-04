@@ -15,6 +15,10 @@ app.get('/', (request, response) => {
   response.sendFile('index.html', { 'root': 'static' });
 });
 
+app.get('/articles', (request, response) => {
+  response.sendFile('articles.html', { 'root': 'static' });
+});
+
 app.listen(port, () => {
   console.log(`Started up at port ${port}`);
 });
