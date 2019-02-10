@@ -18,12 +18,23 @@ var skills = [
   { name: 'System Design', 'color': GoogleRed, percentage: 0.75 },
 ]
 
-var drawSkill = (skill) => {
+var tools = [
+  { name: 'Software Engineering', 'color': GoogleBlue, percentage: 0.85 },
+  { name: 'Algorithms', 'color': GoogleRed, percentage: 0.7 },
+  { name: 'Distributed Systems', 'color': GoogleYellow, percentage: 0.8 },
+  { name: 'Mobile Application Development', 'color': GoogleBlue, percentage: 0.9 },
+  { name: 'Web Development', 'color': GoogleGreen, percentage: 0.85 },
+  { name: 'System Design', 'color': GoogleRed, percentage: 0.75 },
+]
+
+var drawSkill = (skill, container='skills-main') => {
+  var container = $(`#${container}`);
+
   var info = $('<p class="info"></p>');
   var percent = $('<p class="info percent"></p>');
   info.text(skill.name);
   var skillBar = $('<div class="skill"></div>');
-  var container = $('#skills-main');
+
   container.append(info);
   container.append(percent);
   container.append(skillBar);
