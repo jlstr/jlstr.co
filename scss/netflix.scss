@@ -11,6 +11,8 @@ $growFactor: 1.20;// 1.3 times the original size
 $cool-black: #211a23;
 $veev-red: #C8121E;
 $tiptotem-blue: #1babcc;
+$bancs-yellow: #fedb32;
+$lascasas-green: #232b2b;
 
 .sample {
   transition: $duration transform;
@@ -97,6 +99,26 @@ $tiptotem-blue: #1babcc;
   }
 }
 
+.tile.bancs {
+  background: $bancs-yellow;
+
+  .title {
+    margin-left: 10px;
+    color: #1c2e53;
+  }
+}
+
+.tile.lascasas {
+  background: $lascasas-green;
+}
+
+.tile.loto {
+  background-image: linear-gradient(to bottom right, #bababa, #fff);
+
+  .title {
+    color: #1c2e53;
+  }
+}
 
 // HOVER EFFECTS, NEED TO BE IN THIS EXACT ORDER
 .owl-carousel .sample {

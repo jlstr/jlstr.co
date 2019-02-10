@@ -19,9 +19,7 @@
     color: #bababa;
     opacity: 0.66;
     font-size: 25px;
-    z-index: 999; }
-    .sampler .dismiss :hover {
-      cursor: pointer; }
+    cursor: pointer; }
 
 .work-sample {
   position: relative;

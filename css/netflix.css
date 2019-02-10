@@ -60,6 +60,20 @@
   .tile.upwork i {
     color: lightgray; }
 
+.tile.bancs {
+  background: #fedb32; }
+  .tile.bancs .title {
+    margin-left: 10px;
+    color: #1c2e53; }
+
+.tile.lascasas {
+  background: #232b2b; }
+
+.tile.loto {
+  background-image: linear-gradient(to bottom right, #bababa, #fff); }
+  .tile.loto .title {
+    color: #1c2e53; }
+
 .owl-carousel .sample {
   visibility: hidden; }
 

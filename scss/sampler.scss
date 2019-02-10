@@ -28,16 +28,11 @@ $desktop_screenshot: 170px;
   .dismiss {
     float: right;
     margin: 7px 10px 0 0;
-
     color: #bababa;
     opacity: 0.66;
     font-size: 25px;
 
-    z-index: 999;
-
-    :hover {
-      cursor: pointer;
-    }
+    cursor: pointer;
   }
 }
 

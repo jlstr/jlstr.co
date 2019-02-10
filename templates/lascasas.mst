@@ -1,0 +1,25 @@
+<div class="work-sample">
+  <i class="fas fa-times dismiss" id="dismiss"></i>
+  <div class="desktop-container">
+    <div class="desktop"></div>
+    <img src="/images/lascasas/lascasas_screen.jpg" alt="las casas" class="screenshot-desktop" />
+  </div>
+  <div class="summary">
+    <h5>Las Casas (2012)</h5>
+    <p>
+      Created a Real-Estate aggregator online platform that simplified the process of looking for a place to Rent in the Medellín Area by collecting and centralizing information from 3rd party sources.
+    </p>
+    <p class="role">
+      Role: Software Engineer
+    </p>
+    <p class="tech">
+      Tech Stack
+    </p>
+    <p>
+      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-html5-plain-wordmark"></i>
+      <i class="devicon-css3-plain-wordmark colored"></i>
+      <i class="devicon-oracle-original colored"></i>
+    </p>
+  </div>
+</div>
