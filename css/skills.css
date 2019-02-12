@@ -1,38 +1,40 @@
-#skills-main {
+.skills-block {
   display: block;
-  width: 75%;
+  width: 70%;
   height: 300px;
-  margin: 70px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 5px 0 0 10px;
   font-family: OpenSans;
-  color: white;
-  border-top: 1px solid #a8a8a8; }
-  #skills-main h4 {
-    text-align: center;
+  color: white; }
+  @media screen and (max-width: 480px) {
+    .skills-block {
+      margin-top: -15px; } }
+  .skills-block h5 {
     margin: 0;
-    font-size: 24px; }
+    margin-bottom: 10px;
+    font-size: 22px; }
     @media screen and (max-width: 480px) {
-      #skills-main h4 {
-        font-size: 19px; } }
-  #skills-main p.info, #skills-main p.percent {
+      .skills-block h5 {
+        font-size: 18px; } }
+  .skills-block p.info, .skills-block p.percent {
     float: left;
     clear: left;
     padding: 0;
     margin: 10px 0 8px 0;
     font-size: 14px; }
     @media screen and (max-width: 480px) {
-      #skills-main p.info, #skills-main p.percent {
+      .skills-block p.info, .skills-block p.percent {
         font-size: 11px; } }
-  #skills-main p.percent {
+  .skills-block p.percent {
     margin-left: 10px;
     clear: right;
     font-weight: bold; }
-  #skills-main .skill {
+  .skills-block .skill {
     width: 100%;
     height: 15px;
     margin: 0;
     padding: 0; }
-    #skills-main .skill svg {
+    .skills-block .skill svg {
       vertical-align: top; }
 
 .title > i {

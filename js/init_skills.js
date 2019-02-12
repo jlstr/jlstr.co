@@ -2,6 +2,10 @@ $(() => {
   for (const skill of skills) {    
     drawSkill(skill);
   }
+
+  for (const lang of languages) {    
+    drawSkill(lang, 'lang-main');
+  }
 });
 
 var GoogleBlue = '#4885ed';
@@ -18,13 +22,13 @@ var skills = [
   { name: 'System Design', 'color': GoogleRed, percentage: 0.75 },
 ]
 
-var tools = [
-  { name: 'Software Engineering', 'color': GoogleBlue, percentage: 0.85 },
-  { name: 'Algorithms', 'color': GoogleRed, percentage: 0.7 },
-  { name: 'Distributed Systems', 'color': GoogleYellow, percentage: 0.8 },
-  { name: 'Mobile Application Development', 'color': GoogleBlue, percentage: 0.9 },
-  { name: 'Web Development', 'color': GoogleGreen, percentage: 0.85 },
-  { name: 'System Design', 'color': GoogleRed, percentage: 0.75 },
+var languages = [
+  { name: 'C++', 'color': GoogleBlue, percentage: 0.8 },
+  { name: 'Python', 'color': GoogleRed, percentage: 0.7 },
+  { name: 'JavaScript', 'color': GoogleYellow, percentage: 0.75 },
+  { name: 'Swift', 'color': GoogleBlue, percentage: 0.8 },
+  { name: 'Ruby', 'color': GoogleGreen, percentage: 0.8 },
+  { name: 'SQL', 'color': GoogleRed, percentage: 0.6 }
 ]
 
 var drawSkill = (skill, container='skills-main') => {
@@ -44,8 +48,6 @@ var drawSkill = (skill, container='skills-main') => {
     strokeWidth: 0.5,
     duration: 2000,
     step: (state, bar) => {
-      // bar.setText(Math.round(bar.value() * 100) + ' %');
-      // console.log(bar.value());
       percent.text(Math.round(bar.value() * 100) + ' %');
     }
   });

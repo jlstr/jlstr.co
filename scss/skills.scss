@@ -1,21 +1,23 @@
-#skills-main {
+.skills-block {
   display: block;
-  width: 75%;
+  width: 70%;
   height: 300px;
-  margin: 70px auto 0 auto;
+  margin: 10px auto 0 auto;
   padding: 5px 0 0 10px;
   font-family: OpenSans;
   color: white;
-  border-top: 1px solid #a8a8a8;
-  // border-radius: 5px;
 
-  h4 {
-    text-align: center;
+  @media screen and (max-width: 480px) {
+    margin-top: -15px;
+  }
+
+  h5 {
     margin: 0;
-    // font-family: AudioWide;
-    font-size: 24px;
+    margin-bottom: 10px;
+    font-size: 22px;
+
     @media screen and (max-width: 480px) {
-      font-size: 19px;
+      font-size: 18px;
     }
   }
 
@@ -32,8 +34,6 @@
   }
 
   p.percent {
-    // float: right;
-    // margin-right: 2%;
     margin-left: 10px;
     clear: right;
     font-weight: bold;
