@@ -1,6 +1,7 @@
 html, body {
   max-width: 100% !important;
   overflow-x: hidden !important;
+  /* height: 100%; */
 }
 
 body {
