@@ -12,7 +12,8 @@ $cool-black: #211a23;
 $veev-red: #C8121E;
 $tiptotem-blue: #1babcc;
 $bancs-yellow: #fedb32;
-$lascasas-green: #232b2b;
+$lascasas-brown-light: #5c2b2b;
+$lascasas-brown: #221313;
 
 .sample {
   transition: $duration transform;
@@ -109,7 +110,7 @@ $lascasas-green: #232b2b;
 }
 
 .tile.lascasas {
-  background: $lascasas-green;
+  background-image: linear-gradient(to bottom right, $lascasas-brown, $lascasas-brown-light);
 }
 
 .tile.loto {
