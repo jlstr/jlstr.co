@@ -1,3 +1,9 @@
+$blackOne: #110c11;
+$blackTwo: #211a23;
+$blackThree: #343a40;
+$greyOne: #555555;
+$greyTwo: #333333;
+
 .slideout-menu {
   position: fixed;
   top: 0;
@@ -22,7 +28,8 @@
   position: relative;
   z-index: 1;
   will-change: transform;
-  background-color: #FFF; /* A background-color is required */
+  // background-color: #FFF; /* A background-color is required */
+  background-color: transparent;
   min-height: 100vh;
 }
 
@@ -34,4 +41,55 @@
 
 .slideout-open .slideout-menu {
   display: block;
+}
+
+.toggle-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 27px;
+
+  opacity: 0;
+  cursor: not-allowed;
+  pointer-events: none;
+
+  @media screen and (max-width: 480px) {
+    opacity: 1;
+    cursor: pointer;
+    pointer-events: auto;
+  }
+}
+
+nav#menu {
+  background-image: linear-gradient(to right, $blackOne , $blackThree);
+}
+
+a.menu-title {
+  display: block;
+  color: white;
+  border-bottom: 1px solid $greyOne;
+  font-size: 22px;
+  padding: 13px;
+  // text-align: center;
+  width: 100%;
+  text-decoration: none;
+
+  i {
+    margin-right: 10px;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a.menu-item {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 17px 0 17px 25px;
+
+  &:hover {
+    text-decoration: underline;
+  }
 }

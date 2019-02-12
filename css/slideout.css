@@ -19,8 +19,7 @@
   position: relative;
   z-index: 1;
   will-change: transform;
-  background-color: #FFF;
-  /* A background-color is required */
+  background-color: transparent;
   min-height: 100vh; }
 
 .slideout-open,
@@ -30,3 +29,41 @@
 
 .slideout-open .slideout-menu {
   display: block; }
+
+.toggle-button {
+  background: transparent;
+  color: white;
+  border: none;
+  font-size: 27px;
+  opacity: 0;
+  cursor: not-allowed;
+  pointer-events: none; }
+  @media screen and (max-width: 480px) {
+    .toggle-button {
+      opacity: 1;
+      cursor: pointer;
+      pointer-events: auto; } }
+
+nav#menu {
+  background-image: linear-gradient(to right, #110c11, #343a40); }
+
+a.menu-title {
+  display: block;
+  color: white;
+  border-bottom: 1px solid #555555;
+  font-size: 22px;
+  padding: 13px;
+  width: 100%;
+  text-decoration: none; }
+  a.menu-title i {
+    margin-right: 10px; }
+  a.menu-title:hover {
+    text-decoration: underline; }
+
+a.menu-item {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 17px 0 17px 25px; }
+  a.menu-item:hover {
+    text-decoration: underline; }
