@@ -41,6 +41,15 @@
     font-size: 14px;
     font-family: OpenSans;
     overflow-wrap: break-word; }
+    .work-sample .summary a.title {
+      text-decoration: none;
+      font-size: 21px;
+      margin-left: 3px; }
+      .work-sample .summary a.title:hover {
+        text-decoration: underline; }
+      @media screen and (max-width: 480px) {
+        .work-sample .summary a.title {
+          font-size: 17px; } }
     @media only screen and (max-width: 768px) {
       .work-sample .summary {
         font-size: 12px; } }

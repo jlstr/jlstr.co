@@ -5,7 +5,7 @@
     <img src="/images/upwork/upwork_screenshot.jpg" alt="veev" class="screenshot-desktop" />
   </div>
   <div class="summary">
-    <h5>UpWork (2011 - Present)</h5>
+    <a class="title" href="https://www.upwork.com/" target="_blank">UpWork (2011 - Present)</a>
     <p>
       Delivered 10+ software projects for clients located mostly in the US, keeping an average review rating of 5.0/5.0.
     </p>
@@ -24,6 +24,8 @@
       <i class="devicon-css3-plain-wordmark colored"></i>
       <i class="devicon-postgresql-plain-wordmark"></i>
       <i class="devicon-google-plain-wordmark"></i>
+      <i class="devicon-cplusplus-line-wordmark"></i>
+      <i class="devicon-java-plain-wordmark"></i>
       <i class="devicon-mysql-plain-wordmark"></i>
       <i class="devicon-heroku-plain-wordmark colored"></i>
       <i class="devicon-redis-plain-wordmark colored"></i>

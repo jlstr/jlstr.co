@@ -5,7 +5,7 @@
     <img src="/images/stackbuilders/sb_shot.jpg" alt="veev" class="screenshot-desktop" />
   </div>
   <div class="summary">
-    <h5>Stack Builders (2012)</h5>
+    <a class="title" href="https://www.stackbuilders.com/" target="_blank">Stack Builders (2012)</a>
     <p>
       Created an entire web site (viril.la) designed to highlight trending and viral YouTube videos and also built back-end and front-end components for a prototype Geo-Social tool (scuttlehub) that allowed its users to connect with their local community.
     </p>

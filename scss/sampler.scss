@@ -61,6 +61,20 @@ $desktop_screenshot: 170px;
     overflow-wrap: break-word;
     // border: 1px dashed lightsalmon;
 
+    a.title {
+      text-decoration: none;
+      font-size: 21px;
+      margin-left: 3px;
+
+      &:hover {
+        text-decoration: underline;
+      } 
+
+      @media screen and (max-width: 480px) {
+        font-size: 17px;
+      }
+    }  
+
     @media only screen and (max-width : 768px) {
       font-size: 12px;
     }

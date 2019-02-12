@@ -5,7 +5,7 @@
     <img src="/images/ceiba/ceiba_screenshot.jpg" alt="veev" class="screenshot-desktop" />
   </div>
   <div class="summary">
-    <h5>Ceiba Software (2009 - 2010)</h5>
+    <a class="title" href="https://www.ceiba.com.co/en" target="_blank">Ceiba Software (2009 - 2010)</a>
     <p>
       Developed a SOA platform that served as the back-end for a large Medical Insurance System from one of the largest holding companies in the insurance business in Colombia (Sura).
     </p>

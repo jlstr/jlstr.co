@@ -5,7 +5,7 @@
     <img src="/images/bancs/screen_bancs.jpg" alt="bancs" class="screenshot-desktop" />
   </div>
   <div class="summary">
-    <h5>Banco Pichincha (2008 - 2009)</h5>
+    <a class="title" href="https://www.bancopichincha.com.co/web/personas" target="_blank">Banco Pichincha (2008 - 2009)</a>
     <p>
       Integrated a Core Banking System (TCS BaNCS) for Ecuador's largest private Bank using IBM's WebSphere suite. Created a Generic Message flow and Message Queueing System to enable communication between high level front-end components and the low-level Core.
     </p>

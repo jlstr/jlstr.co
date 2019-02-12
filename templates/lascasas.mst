@@ -5,7 +5,7 @@
     <img src="/images/lascasas/lascasas_screen.jpg" alt="las casas" class="screenshot-desktop" />
   </div>
   <div class="summary">
-    <h5>Las Casas (2012)</h5>
+    <a class="title" href="https://jestrella-dev.herokuapp.com/en" target="_blank">Las Casas (2012)</a>
     <p>
       Created a Real-Estate aggregator online platform that simplified the process of looking for a place to Rent in the Medellín Area by collecting and centralizing information from 3rd party sources.
     </p>
@@ -16,10 +16,13 @@
       Tech Stack
     </p>
     <p>
-      <i class="devicon-java-plain-wordmark colored"></i>
+      <i class="devicon-ruby-plain-wordmark colored"></i>
+      <i class="devicon-rails-plain-wordmark colored"></i>
+      <i class="devicon-javascript-plain colored"></i>
       <i class="devicon-html5-plain-wordmark"></i>
       <i class="devicon-css3-plain-wordmark colored"></i>
-      <i class="devicon-oracle-original colored"></i>
+      <i class="devicon-heroku-plain-wordmark colored"></i>
+      <i class="devicon-postgresql-plain-wordmark"></i>
     </p>
   </div>
 </div>
