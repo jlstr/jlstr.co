@@ -9,15 +9,15 @@
       margin-top: 0; } }
 
 .articles {
-  width: 80%;
+  width: 85%;
   margin: 0 auto; }
   @media screen and (max-width: 480px) {
     .articles {
-      width: 97%; } }
+      width: 100%; } }
   .articles .article {
     display: block;
     overflow: hidden;
-    margin: 40px 0 0 10%;
+    margin: 40px 0 0 6%;
     font-size: 20px; }
     @media screen and (max-width: 480px) {
       .articles .article {
