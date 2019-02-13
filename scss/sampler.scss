@@ -5,6 +5,19 @@ $dynamic_width: $sampler_height / 2;
 $desktop_width: 370px;
 $desktop_screenshot: 170px;
 
+.featured {
+  font-family: OpenSans;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  margin: 10px 0 5px 10px;
+
+  @media screen and (max-width: 480px) {
+    text-align: center;
+    font-size: 18px;
+  }
+}
+
 .sampler {
   position: relative;
   top: 150px;

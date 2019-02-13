@@ -18,10 +18,10 @@ $(() => {
       return;
     }
 
-    var height = isMobileDevice() ? '500' : '300';
+    var height = isMobileDevice() ? '1435' : '1250';
     
     if (!expanded) {
-      main.height(`+=${height}`);
+      main.height(height);
       expanded = !expanded;
     }
 
@@ -31,11 +31,11 @@ $(() => {
   });
 
   $('.sampler').on('click', '.dismiss', () => {
-    var height = isMobileDevice() ? '500' : '300';
+    var height = isMobileDevice() ? '935' : '950';
 
     if (expanded) {
-      main.height(`-=${height}`);
-      expanded = !expanded;
+      main.height(height);
+      expanded = !expanded; 
     }
 
     sampler.slideUp(150).empty();
