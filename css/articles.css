@@ -4,6 +4,9 @@
   border-bottom: 1px solid white;
   margin-top: -30px;
   padding-bottom: 10px; }
+  @media screen and (max-width: 480px) {
+    .myname {
+      margin-top: 0; } }
 
 .articles {
   width: 80%;
