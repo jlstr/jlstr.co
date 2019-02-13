@@ -6,6 +6,5 @@ $(() => {
     $('html, body').animate({
       scrollTop: $(target.attr('href')).offset().top
     }, 500, 'linear');
-
   });
 });

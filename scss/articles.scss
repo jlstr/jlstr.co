@@ -1,14 +1,18 @@
 .myname {
   color: #fff;
   text-align: center;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid white;
   margin-top: 20px;
   padding-bottom: 10px;
 }
 
 .articles {
-  width: 75%;
+  width: 80%;
   margin: 0 auto;
+
+  @media screen and (max-width: 480px) {
+    width: 97%;
+  }
 
   .article {
     display: block;
@@ -16,13 +20,22 @@
     margin: 40px 0 0 10%;
     font-size: 20px;
 
+    @media screen and (max-width: 480px) {
+      font-size: 15px;
+    }
+
     .title {
       .date {
         float: left;
         color: #fff;
-        font-size: 75%;
+        font-size: 85%;
         font-weight: lighter;
-        margin: 0;
+        margin: 10px 0 0 0;
+
+        @media screen and (max-width: 480px) {
+          float: none;
+          display: block;
+        }
       }
 
       a {
@@ -30,9 +43,31 @@
         margin-left: 30px;
         color: #fff;
         font-size: 140%;
+
+        @media screen and (max-width: 480px) {
+          float: none;
+          display: block;
+          margin-left: 0;
+        }
       }
     }
 
-    
+    p.little {
+      display: block;
+      color: lightgray;
+      clear: both;
+      font-size: 80%;
+      margin: 10px 0 0 10px;
+      margin-left: 130px;
+      font-style: oblique;
+
+      @media screen and (max-width: 480px) {
+        margin-left: 0;
+      }
+
+      a {
+        color: white;
+      }
+    }
   }
 }
