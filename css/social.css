@@ -3,10 +3,13 @@
   width: 100%;
   text-align: center;
   margin-top: 50px; }
-  #social-container .fab {
+  #social-container .fab, #social-container .fas, #social-container .far {
     font-size: 40px;
     margin: 0 20px 0 20px;
     color: white; }
+    @media screen and (max-width: 480px) {
+      #social-container .fab, #social-container .fas, #social-container .far {
+        font-size: 35px; } }
 
 .name {
   margin-top: 50px;
@@ -22,4 +25,4 @@
     font-size: 39px; }
     @media screen and (max-width: 480px) {
       .name .role {
-        font-size: 16px; } }
+        font-size: 18px; } }
