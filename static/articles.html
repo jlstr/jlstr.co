@@ -22,11 +22,14 @@
   <link rel="stylesheet" href="/css/main.css">
   <link rel="stylesheet" href="/css/articles.css">
   <link rel="stylesheet" href="/css/nav.css">
+  <link rel="stylesheet" href="/css/slideout.css">
   <!-- JS -->
   <!-- JQuery -->
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <!-- Mustache JS-->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.3.2/mustache.min.js"></script>
+  <!-- SlideOut -->
+  <script src="js/lib/slideout.min.js"></script>
 </head>
 
 <body>
@@ -47,30 +50,47 @@
     </div>
   </nav>
 
-  <h3 class="myname">José Estrella Campaña</h3>
+  <nav id="menu">
+    <header>
+      <a class="menu-title" href="/"><i class="fas fa-home"></i>jlstr.co</a>
+      <a href="/articles" class="menu-item" style="margin-top:45px;">Articles</a>
+      <a href="https://drive.google.com/file/d/1dzICOkj2LhvakUmUUA0fc5cYo7CWOQa-/view?usp=sharing" target="_blank" class="menu-item">CV</a>
+      <a href="#skills-main" class="menu-item">Skills</a>
+    </header>
+  </nav>
 
-  <div class="articles">
-    <div class="article">
-      <div class="title">
-        <p class="date">Sept 19, 2017</p>
-        <a href="https://code.energy/misconceptions-about-programmers/" target="_blank">So you’re a coder… can you fix my printer?</a>
-      </div>
-      <p class="little">
-          Just a couple of days ago, I had a friend tell me something along those lines: “Hey, you’re a systems engineer, right?...
-          <a href="https://code.energy/misconceptions-about-programmers/" target="_blank">Read More</a>
-      </p>
-    </div>
-    <div class="article">
-      <div class="title">
-        <p class="date">April 4, 2017</p>
-        <a href="https://code.energy/coder-software-engineer/" target="_blank">From Coder to Software Engineer</a>
-      </div>
-      <p class="little">
-        Back when I was fresh out of school and I started to program professionally, I didn’t care about the job titles I’d get. I was comfortable being an...
-        <a href="https://code.energy/coder-software-engineer/" target="_blank">Read More</a>
-      </p>
-    </div>
-  </div>
+  <main id="panel">
+    <header>
+      <button class="toggle-button">
+        <i class="fas fa-bars"></i>
+      </button>
+    </header>
 
+    <h3 class="myname">José Estrella Campaña</h3>
+
+    <div class="articles">
+      <div class="article">
+        <div class="title">
+          <p class="date">Sept 19, 2017</p>
+          <a href="https://code.energy/misconceptions-about-programmers/" target="_blank">So you’re a coder… can you fix my printer?</a>
+        </div>
+        <p class="little">
+            Just a couple of days ago, I had a friend tell me something along those lines: “Hey, you’re a systems engineer, right?...
+            <a href="https://code.energy/misconceptions-about-programmers/" target="_blank">Read More</a>
+        </p>
+      </div>
+      <div class="article">
+        <div class="title">
+          <p class="date">April 4, 2017</p>
+          <a href="https://code.energy/coder-software-engineer/" target="_blank">From Coder to Software Engineer</a>
+        </div>
+        <p class="little">
+          Back when I was fresh out of school and I started to program professionally, I didn’t care about the job titles I’d get. I was comfortable being an...
+          <a href="https://code.energy/coder-software-engineer/" target="_blank">Read More</a>
+        </p>
+      </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="js/init_slideout.js"></script>
 </body>
 </html>
