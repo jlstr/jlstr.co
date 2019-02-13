@@ -29,12 +29,6 @@ h1 {
   font-family: CurwenSans;
 }
 
-.name {
-  margin-top: 50px;
-  position: absolute;
-  width: 100%;
-}
-
 .main-content {
   height: 950px;
   width: 100%;
