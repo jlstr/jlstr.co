@@ -24,11 +24,11 @@ var skills = [
 
 var languages = [
   { name: 'C++', 'color': GoogleBlue, percentage: 0.8 },
-  { name: 'Python', 'color': GoogleRed, percentage: 0.7 },
+  { name: 'Python', 'color': GoogleRed, percentage: 0.65 },
   { name: 'JavaScript', 'color': GoogleYellow, percentage: 0.75 },
-  { name: 'Swift', 'color': GoogleBlue, percentage: 0.8 },
-  { name: 'Ruby', 'color': GoogleGreen, percentage: 0.8 },
-  { name: 'SQL', 'color': GoogleRed, percentage: 0.6 }
+  { name: 'Java', 'color': GoogleBlue, percentage: 0.6 },
+  { name: 'Swift', 'color': GoogleGreen, percentage: 0.8 },
+  { name: 'Ruby', 'color': GoogleRed, percentage: 0.75 }
 ]
 
 var drawSkill = (skill, container='skills-main') => {
