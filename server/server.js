@@ -19,6 +19,10 @@ app.get('/articles', (request, response) => {
   response.sendFile('articles.html', { 'root': 'static' });
 });
 
+app.get('/about', (request, response) => {
+  response.sendFile('about.html', { 'root': 'static' });
+});
+
 app.listen(port, () => {
   console.log(`Started up at port ${port}`);
 });

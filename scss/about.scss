@@ -1,0 +1,16 @@
+.summary {
+  width: 70%;
+  margin: 0 auto;
+  color: white;
+  font-size: 20px;
+
+  p {
+    word-wrap: break-word;
+  }
+
+  @media screen and (max-width: 480px) {
+    width: 95%;
+    margin: 0 20px 0 20px;
+    font-size: 15px;
+  }
+}
