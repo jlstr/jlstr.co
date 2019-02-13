@@ -30,7 +30,8 @@
     color: #bababa;
     opacity: 0.66;
     font-size: 25px;
-    cursor: pointer; }
+    cursor: pointer;
+    z-index: 9999; }
 
 .work-sample {
   position: relative;
