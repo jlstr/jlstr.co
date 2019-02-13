@@ -35,7 +35,7 @@
   color: white;
   border: none;
   font-size: 27px;
-  margin-left: 0;
+  margin-left: -10px;
   opacity: 0;
   cursor: not-allowed;
   pointer-events: none; }
